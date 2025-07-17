@@ -1,4 +1,3 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19950559&assignment_repo_type=AssignmentRepo)
 # Real-Time Chat Application with Socket.io
 
 This assignment focuses on building a real-time chat application using Socket.io, implementing bidirectional communication between clients and server.
@@ -59,20 +58,33 @@ socketio-chat/
 - Modern web browser
 - Basic understanding of React and Express
 
-## Submission
+## Features
+### Core functionality
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+1. Real-time messaging with Socket.io
+2. User authentication (username-based)
+3. Global chat room for all users
+4. Message display with sender names and timestamps
+5. Typing indicators
+6. Online/offline user status
 
-1. Complete both the client and server portions of the application
-2. Implement the core chat functionality
-3. Add at least 3 advanced features
-4. Document your setup process and features in the README.md
-5. Include screenshots or GIFs of your working application
-6. Optional: Deploy your application and add the URLs to your README.md
+### Advanced features 
 
-## Resources
+1. Private messaging between users
+2. Multiple chat rooms/channels
+3. File and image sharing
+4. Message reactions (like, love, etc.)
+5. Read receipts
+6. Real-time notifications
+7. Sound notifications
+8. Browser notifications (Web Notifications API)
+9. Message pagination
+10. Auto-reconnection logic
+11. Message search functionality
+12. Responsive design for mobile and desktop
 
-- [Socket.io Documentation](https://socket.io/docs/v4/)
-- [React Documentation](https://react.dev/)
-- [Express.js Documentation](https://expressjs.com/)
-- [Building a Chat Application with Socket.io](https://socket.io/get-started/chat) 
+## Chat App Demo
+
+Below is a screenshot showing real-time messaging with Socket.io:
+
+![Chat Demo](./ChatDemo.png)
